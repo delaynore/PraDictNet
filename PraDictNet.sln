@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34814.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9371C2A4-55FF-4AA9-8284-9A535B0AA770}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8D15F3B7-1617-401E-8180-B7D00D7C0CFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{14876668-70DF-459A-A063-FBCBBB0D08E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PraDictNet.Api", "src\PraDictNet.Api\PraDictNet.Api.csproj", "{AEB17B0B-E276-420F-99F9-323543C6C969}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PraDictNet.Domain", "src\PraDictNet.Domain\PraDictNet.Domain.csproj", "{69F7B321-CCFC-409B-B068-659652FD3A04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PraDictNet.Application", "src\PraDictNet.Application\PraDictNet.Application.csproj", "{CADC8B7E-6CAB-474D-BC21-74E081CF9219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PraDictNet.Infrastructure", "src\PraDictNet.Infrastructure\PraDictNet.Infrastructure.csproj", "{193832C5-8075-478E-81A6-FDDB2560A96D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEB17B0B-E276-420F-99F9-323543C6C969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB17B0B-E276-420F-99F9-323543C6C969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB17B0B-E276-420F-99F9-323543C6C969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB17B0B-E276-420F-99F9-323543C6C969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69F7B321-CCFC-409B-B068-659652FD3A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F7B321-CCFC-409B-B068-659652FD3A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F7B321-CCFC-409B-B068-659652FD3A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F7B321-CCFC-409B-B068-659652FD3A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CADC8B7E-6CAB-474D-BC21-74E081CF9219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CADC8B7E-6CAB-474D-BC21-74E081CF9219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CADC8B7E-6CAB-474D-BC21-74E081CF9219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CADC8B7E-6CAB-474D-BC21-74E081CF9219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{193832C5-8075-478E-81A6-FDDB2560A96D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193832C5-8075-478E-81A6-FDDB2560A96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193832C5-8075-478E-81A6-FDDB2560A96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193832C5-8075-478E-81A6-FDDB2560A96D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEB17B0B-E276-420F-99F9-323543C6C969} = {9371C2A4-55FF-4AA9-8284-9A535B0AA770}
+		{69F7B321-CCFC-409B-B068-659652FD3A04} = {9371C2A4-55FF-4AA9-8284-9A535B0AA770}
+		{CADC8B7E-6CAB-474D-BC21-74E081CF9219} = {9371C2A4-55FF-4AA9-8284-9A535B0AA770}
+		{193832C5-8075-478E-81A6-FDDB2560A96D} = {9371C2A4-55FF-4AA9-8284-9A535B0AA770}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9A1BCF0-BCE6-4D0B-B39A-D312B55D3B00}
+	EndGlobalSection
+EndGlobal
