@@ -8,6 +8,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8D15F3B7-1617-401E-8180-B7D00D7C0CFE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{14876668-70DF-459A-A063-FBCBBB0D08E8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PraDictNet.Api", "src\PraDictNet.Api\PraDictNet.Api.csproj", "{AEB17B0B-E276-420F-99F9-323543C6C969}"
 EndProject
